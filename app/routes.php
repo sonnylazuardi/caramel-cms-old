@@ -16,5 +16,5 @@ Route::group(array('prefix' => 'api'), function() {
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return File::get(public_path() . '/angular.html');
 });
