@@ -1,0 +1,7 @@
+<div ng-repeat="post in posts">
+    <div>
+        <h1>{{post.title}}</h1>
+        <p>{{post.html}}</p>
+        <a ui-sref="post({slug: post.slug})">read more</a>
+    </div>
+</div>
