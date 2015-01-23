@@ -2,7 +2,8 @@
 
 @section ('content')
 
-    <a href="{{url('admin/posts/create')}}">Create Post</a>
+    <a href="{{url('admin/posts/create')}}">Create Post</a> | 
+    <a href="{{url('/')}}">Visit Blog</a>
 
     @foreach ($posts as $post)
     
