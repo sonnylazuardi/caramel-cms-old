@@ -6,7 +6,25 @@
 </head>
 <body ng-app="CaramelApp">
     
-    <div ui-view></div>
+    <div class="header">
+        <h1>Caramel Blog</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aut molestias quam vitae voluptatibus a quod, aliquid. Ipsam alias repudiandae, similique in odit eum quod voluptatibus, repellat minima explicabo fuga.</p>    
+    </div>
+    
+    <hr>
+
+    <div class="content">
+        <div ui-view></div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        
+        &copy; Copyright 2015; Caramel Team
+
+    </div>
 
     <script src="angular/lib/angular/angular.js"></script>
     <script src="angular/lib/angular-ui-router/release/angular-ui-router.js"></script>
